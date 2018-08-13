@@ -8,10 +8,3 @@ services:
     container_name: python
     tty: true
     working_dir: '/var/www/html'
-
-  mysql:
-    image: mysql:latest
-    environment:
-      - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - 3306:3306
