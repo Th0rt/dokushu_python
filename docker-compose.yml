@@ -4,7 +4,7 @@ services:
   python:
     image: python:latest
     volumes:
-      - './projects:/var/www/html'
+      - './:/var/www/html'
     container_name: python
     tty: true
     working_dir: '/var/www/html'
